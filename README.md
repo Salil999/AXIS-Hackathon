@@ -1,3 +1,5 @@
+# Riskulizer
+
 ### Inspiration
 
 The insurance industry relies heavily on its data scientists and massive amounts of data. And in the modern age, number crunching should be left to computers.
