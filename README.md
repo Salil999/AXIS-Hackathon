@@ -1,27 +1,19 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
+### Inspiration
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
+The insurance industry relies heavily on its data scientists and massive amounts of data. And in the modern age, number crunching should be left to computers.
 
-## Getting Started
+### What it does
+Riskulizer also provides three different machine learning models to predict estimated property premiums, TIVs, and deductibles given input data such as latitude and longitude, distance to the coast, the year the property was built, and more! We created these predictive models via a k-nearest neighbors regression, which assigns properties with similar features approximately the same premium, TIV, and deductible values.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
-* Fork the repo
+Our iPad app provides an intelligent and interactive interface for analysts to view past high-risk events like wildfires, hurricanes, tornadoes, as well as a prediction for where these dangerous events can occur in the future.
 
-## Bugs and Issues
+### The Build
+To prepare the regression model, we first had to cleanse the data, which was full of invalid entries. We decided to do a mixture of dropping data entries and interpolating missing values in the data to maintain a sizable dataset. After that, we faced the problem of what model to train on this high-dimensional data. We tried various models such as polynomial regressions with ElasticNets, support vector regressions with a RBF kernel, and finally our k-nearest neighbors regression. We also played around with what features to include in our model with r-squared and mean absolute error metrics. Using the DTMHeatMap framework, we were able to generate heat maps to provide a geographical representation of where these disasters have occured and could occur in the future.
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
+### Accomplishments that we're proud of
+We're most proud of the fact that we were able to integrate machine learning algorithms and actually get a valuable insight about the world.
 
-## Creator
+What's next for Riskulizer
+We plan to try to expand our training data set to include more features in our algorithms to get more accurate and diversified predictions. Also, we plan to make our web and iPad applications more interactive.
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+https://cdn.rawgit.com/Salil999/AXIS-Hackathon/ef61677d/index.html
